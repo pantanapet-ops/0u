@@ -1,0 +1,11 @@
+fetch("วาง_WEB_APP_URL_ของคุณที่นี่", {
+  method: "POST",
+  mode: "no-cors", // ป้องกัน CORS block จาก Google Apps Script
+  body: JSON.stringify({
+    customerName: "คุณสมชาย ใจดี",
+    contact: "081-234-5678 / Line: somchai",
+    items: "DENTAPURE Fresh (2), DENTAPURE Sweet (1)",
+    total: 550,
+    note: "จัดส่งช่วงเช้า"
+  })
+});
